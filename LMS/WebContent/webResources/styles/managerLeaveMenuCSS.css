@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+.nav{
+	 background-color: aqua;
+}
+
+.nav li{
+	
+	font-size: 25px;
+	background: none;
+	margin: 20px;
+	float: right;	
+	display: inline-block;
+}
+
+
+
+.nav li:hover{
+	background-color: buttonface;
+}
+
+.btn{
+	width: 250px;
+	height: 100px;
+	top: 20%;	
+	margin: 25px;
+	background: #d5f9efc2;
+	cursor: pointer;
+}
+
+.btn:hover{
+	border-bottom: 3px solid red;
+}

@@ -1,0 +1,42 @@
+@CHARSET "ISO-8859-1";
+
+h1{
+	color: #527082;
+	background-color: #ececf3; 
+	font-size: 30px;
+	width: 400px;
+	border-radius: 25px;
+}
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th{
+	font-family: ;
+}
+th, td {
+	padding: 15px;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+.nav{
+	 background-color: aqua;
+}
+
+.nav li{
+	
+	font-size: 25px;	
+	margin: 20px;
+	float: right;	
+	display: inline-block;
+}
+
+
+
+.nav li:hover{
+	background-color: buttonface;
+}

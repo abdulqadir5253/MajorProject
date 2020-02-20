@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+h1{
+	margin: 10px;
+	font-family: sans-serif;
+	color: lime;
+}
+
+.nav{
+	background: aqua;
+	font-size: 25px;
+	background: none;	
+	float: right;	
+	display: inline-block;
+	margin: 20px;
+}
+
+.nav li:hover{
+	background-color: buttonface;
+}
+
+.btn{
+	width: 250px;
+	height: 100px;
+	top: 20%;	
+	margin: 25px;
+	background: #d5f9efc2;
+	cursor: pointer;
+}
+
+.btn:hover{
+	border-bottom: 3px solid red;
+}

@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+#leaves{
+	
+	font-family: sans-serif;
+	border-collapse: collapse;
+	padding-left: 30px;	
+	width: 70%;
+}
+
+#leaves td, #leaves th{
+	border: 1px solid #ddd;
+	padding: 8px;
+}
+
+#leaves tr:NTH-CHILD(even){ background-color: f2f2f2;}
+
+#leaves th{
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #4CAF50;
+	color: white;
+	
+}
+
+body{
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+h1{
+	margin: 10px;
+	font-family: sans-serif;
+	color: lime;
+}
+
+.nav{
+	 background-color: aqua;
+}
+
+.nav li{
+	
+	font-size: 25px;	
+	margin: 20px;
+	float: right;	
+	display: inline-block;
+}
+
+
+
+.nav li:hover{
+	background-color: buttonface;
+}
